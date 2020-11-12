@@ -29,7 +29,7 @@ class ModelTests(TestCase):
             get_user_model().objects.create_user(None, 'test123')
 
     def test_create_super_user(self):
-        """ Test to create a new super user"""
+        """ Test to create a new super user with email and password"""
         user = get_user_model().objects.create_superuser(
             'test@gmail.com',
             'test123'
