@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'core',
     'flake8',
     'user',
+    'recipe',
 ]
 
 MIDDLEWARE = [
