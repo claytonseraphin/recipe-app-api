@@ -36,7 +36,6 @@ class PrivateIngredientAPITest(TestCase):
         self.client = APIClient()
         self.client.force_authenticate(self.user)
 
-
     def test_retrieve_ingredients(self):
         """Test retrievng ingredients."""
         Ingredient.objects.create(
